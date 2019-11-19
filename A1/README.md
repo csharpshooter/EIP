@@ -22,9 +22,7 @@ Feature Maps - Feature map is collection of all features. The output of a kernel
 Activation Function - While initialising a convolution mode we can set the activation. In the assignment we have used 'relu' activation.
 We have also used 'softmax' activation function in our model
 
-Receptive Field - There a 2 types of receptive fields. 
-Local Receptive field 
-Global Receptive field
+Receptive Field - There a 2 types of receptive fields. 'Local Receptive field' and 'Global Receptive field'
 
 1. Local receptive field - It is the image data of the image which is seen by the kernel for a pixel on which convolution is being done. For a kernel of 3 x 3 the local receptive field will be 3 x 3.
 
