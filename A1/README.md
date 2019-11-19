@@ -23,8 +23,8 @@ Activation Function - While initialising a convolution mode we can set the activ
 We have also used 'softmax' activation function in our model
 
 Receptive Field - There a 2 types of receptive fields. 
-1. Local Receptive field 
-2. Global Receptive field
+Local Receptive field 
+Global Receptive field
 
 1. Local receptive field - It is the image data of the image which is seen by the kernel for a pixel on which convolution is being done. For a kernel of 3 x 3 the local receptive field will be 3 x 3.
 
