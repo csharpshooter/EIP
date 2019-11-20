@@ -3,9 +3,13 @@ EIP Phase 1 Assignment 1
 Contributors:
 Abhijit Mali
 
-Model Evaluation Output :
+Model Evaluation Output for first model :
 print(score)
 [0.060999790370383014, 0.9907]
+
+Model evaluation output for remodeled assignment after feedback :
+print(score)
+[0.04079107277436365, 0.9907]
 
 Convolution - Convolution is like a correlation. We are doing a dot product between the image and the kernel.
 
