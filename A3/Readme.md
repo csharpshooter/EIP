@@ -23,6 +23,7 @@ model.add(SeparableConv2D(64, 3, 3,kernel_regularizer=l2(0.02))) #28,5
 model.add(BatchNormalization())
 
 model.add(Activation('relu'))
+
 model.add(SeparableConv2D(64, 3, 3,kernel_regularizer=l2(0.02))) #26,7
 
 model.add(BatchNormalization())
@@ -256,7 +257,7 @@ Epoch 00050: LearningRateScheduler setting learning rate to 0.0003006434.
 781/781 [==============================] - 34s 44ms/step - loss: 0.3375 - acc: 0.8809 - val_loss: 0.4651 - val_acc: 0.8441
 Model took 1727.32 seconds to train
 
-#![alt text](http://url/to/img.png)
+#![alt text]
 
 Accuracy on test data is: 84.41
 --------------------------------------------------------------------------------------------------------------------------------
