@@ -3,6 +3,11 @@ EIP Phase 1 Assignment 3
 Contributors: Abhijit Mali
 
 --------------------------------------------------------------------------------------------------------------------------------
+Summary
+-------
+Got to learn about regularization techniques while working on this assignment along with use of depth wise separable convolutions. I tried using global average pooling instead of flatten in my model but in this case the accuracy was decreasing. I have used image augmentation in this model along with learning rate scheduler.
+
+--------------------------------------------------------------------------------------------------------------------------------
 Final Validation accuracy for Base Network
 ------------------------------------------
   Accuracy on test data is: 83.22
