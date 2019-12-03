@@ -11,25 +11,44 @@ Final Validation accuracy for Base Network
 Model definition with output channel size and receptive field
 --------------------------------------------------------------
 model = Sequential()
+
 model.add(SeparableConv2D(32, 3, 3,  input_shape=(32, 32, 3),kernel_regularizer=l2(0.01))) #30,3
+
 model.add(BatchNormalization())
+
 model.add(Activation('relu'))
+
 model.add(SeparableConv2D(64, 3, 3,kernel_regularizer=l2(0.02))) #28,5
+
 model.add(BatchNormalization())
+
 model.add(Activation('relu'))
 model.add(SeparableConv2D(64, 3, 3,kernel_regularizer=l2(0.02))) #26,7
+
 model.add(BatchNormalization())
+
 model.add(Activation('relu'))
+
 model.add(SeparableConv2D(128, 3, 3,kernel_regularizer=l2(0.02))) #24,9
+
 model.add(BatchNormalization())
+
 model.add(Activation('relu'))
+
 model.add(SeparableConv2D(256, 3, 3,kernel_regularizer=l2(0.02))) #22,11
+
 model.add(BatchNormalization())
+
 model.add(Dropout(0.4))
+
 model.add(Activation('relu'))
+
 model.add(MaxPooling2D(pool_size=(2, 2))) #11,12
+
 model.add(SeparableConv2D(10, 11, 11)) 
+
 model.add(Flatten())
+
 model.add(Activation('softmax'))
 
 --------------------------------------------------------------------------------------------------------------------------------
