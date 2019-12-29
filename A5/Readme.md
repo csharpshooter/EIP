@@ -6,13 +6,13 @@ Contributors: Abhijit Mali
 --------------------------
 Summary
 -------
-I tried different models like vgg19, Resnet34 and resnet50v2 (the other models are in test folder). But I got good accuracy with this Vgg16 model.
-I also used early stopping in this model. I used early stopping as when I tried to train for epochs more than 20-25 validation accuracy would not increase much.
-I am also working on  model where I used a method to train for 50 epochs and then load the best model and again train it for 20 more epochs and do this 2-3 more times. But I had not finished working on it till the deadline so have submitted the model with best accuracy I have.
-I have used Image data augmentation random cut-out with Person data generator.
-I have changed the started model a bit. I tried to implement one cycle policy but was unsuccessfull.
-I will still keep on working ont this assignment to improve it further as I learnt a lot of things which I need to do and also
-which can go wrong.
+1. I tried different models like vgg19, Resnet34 and resnet50v2 (the other models are in test folder). But I got good accuracy with this    Vgg16 model.
+2. I also used early stopping in this model. I used early stopping as when I tried to train for epochs more than 20-25 validation         accuracy would not increase much.
+3. I am also working on  model where I used a method to train for 50 epochs and then load the best model and again train it for 20 more    epochs and do this 2-3 more times. But I had not finished working on it till the deadline so have submitted the model with best    accuracy I have.     
+4. I have used Image data augmentation random cut-out with Person data generator.
+5. I have changed the started model a bit. I tried to implement one cycle policy but was unsuccessfull.
+6. I will still keep on working ont this assignment to improve it further as I learnt a lot of things which I need to do and also
+   which can go wrong.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 Output:
